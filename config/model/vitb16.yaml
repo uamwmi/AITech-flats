@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Adam Wojdyła <adam.wojdyla@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
+description: "ViT-B16-TransferLearning"
+name: "vitb16"
+target:
+  _target_: torchvision.models.vit_b_16
+  weights: DEFAULT

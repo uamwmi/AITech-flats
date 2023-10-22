@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Adam Wojdyła <adam.wojdyla@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
+description: "VGG19-TransferLearning"
+name: "vgg19"
+target:
+  _target_: torchvision.models.vgg19
+  weights: IMAGENET1K_V1

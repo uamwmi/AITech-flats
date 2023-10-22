@@ -1,0 +1,38 @@
+.loading-label {
+  color: var(--dark-color);
+  margin: 1rem auto auto;
+}
+
+.loading-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 10%);
+}
+
+.loading-spinner {
+  border: 10px solid rgba(255, 255, 255, 0);
+  border-bottom-color: var(--main-accent-color);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  aspect-ratio: auto;
+  width: 100px;
+  height: 100px;
+  margin-top: auto;
+  transform: translateZ(0);
+  animation: rotation 1.1s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

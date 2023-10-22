@@ -1,0 +1,18 @@
+.score-container {
+  color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.score-container-marked {
+  color: var(--main-accent-color);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.score-number-label {
+  font-size: 1.1em;
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,38 @@
+# SPDX-FileCopyrightText: 2023 Adam Wojdyła <adam.wojdyla@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
+defaults:
+  - model: vgg16
+  - optimizer: sgd
+  # To use augmentation uncomment the following line
+  # - augmentation: basicaugmentation
+
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+params:
+  lr: 0.00001
+  batch_size: 32
+  momentum: 0.9
+  epoch_count: 30
+mlflow:
+  mlflow_enabled: True
+  mlflow_azure_upstream: False # If True, the mlflow_enabled must be True as well
+  register_model: False
+  azure: # Values must be set when mlflow_azure_upstream is True
+    workspace_name: aitechflats-ws-dev
+    subscription_id: 4f6a744a-eced-4a72-a117-ab9ad0ad720d
+    resource_group: aitechflats-rg-dev
+dataset:
+  image_size: 256
+  subset_size: False # If False, the whole dataset is used
+  load_to_ram: True
+paths:
+  dataset: data/images/houzz_subset
+  dataset_augmented: data/images/houzz_augmented_dataset
