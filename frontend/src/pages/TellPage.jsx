@@ -21,7 +21,7 @@ function TellPage() {
         <>
           <Header
             heading="INTER.IO/TELL"
-            subheading="W jakim stylu jest ta chata?"
+            subheading="What architectural style is this interior?"
           />
           <MainForm onSubmit={onSubmit} />
         </>

@@ -5,7 +5,7 @@ function Loading() {
     <div className="loading-container">
       <span className="loading-spinner" />
       <p className="loading-label main-font filling-layout-container">
-        Ładowanie
+        Loading...
       </p>
     </div>
   );

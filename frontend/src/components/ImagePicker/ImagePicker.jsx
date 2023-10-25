@@ -22,7 +22,7 @@ function ImagePicker({ isOpened, onClose, onImageSelected }) {
     setPickedItem(imageName);
   };
   return (
-    <Modal isOpened={isOpened} onClose={onClose} title="Wybierz obraz">
+    <Modal isOpened={isOpened} onClose={onClose} title="Select image">
       <div className="image-list-container">
         {imageNames.map((imageName) => (
           // eslint-disable-next-line jsx-a11y/click-events-have-key-events
@@ -38,9 +38,9 @@ function ImagePicker({ isOpened, onClose, onImageSelected }) {
         ))}
       </div>
       <div className="image-picker-buttons-container">
-        <PillButton onClick={onClose}>Wróć</PillButton>
+        <PillButton onClick={onClose}>Back</PillButton>
         <PillButton onClick={onDone} selected inactive={pickedItem === null}>
-          Wybierz
+          Select
         </PillButton>
       </div>
     </Modal>

@@ -15,9 +15,9 @@ function TellResult({ file, onBack }) {
   }
   return (
     <>
-      <h3 className="main-font tell-result-heading">Twoje mieszkanie</h3>
+      <h3 className="main-font tell-result-heading">Your interior</h3>
       <img className="tell-result-image" src={image} alt="your-flat" />
-      <h3 className="main-font tell-result-heading">jest w stylu...</h3>
+      <h3 className="main-font tell-result-heading">design style is...</h3>
       <div className="tell-result-scores-container">
         {Object.entries(result).map((entry, idx) => {
           if (idx >= topValues) {
@@ -35,7 +35,7 @@ function TellResult({ file, onBack }) {
         })}
       </div>
       <PillButton className="tell-result-back-button" selected onClick={onBack}>
-        Powrót
+        Back
       </PillButton>
     </>
   );

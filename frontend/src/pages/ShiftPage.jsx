@@ -9,7 +9,7 @@ function ShiftPage() {
     <AppLayout>
       <Header
         heading="INTER.IO/shift"
-        subheading="Zobacz swoje mieszkanie w innej odsłonie!"
+        subheading="See your flat in a different light!"
       />
       <MainForm onSubmit={() => {}}>
         <ListWithHeading headerText="Styl">

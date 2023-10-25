@@ -25,15 +25,15 @@ function MainForm({ children, onSubmit }) {
   return (
     <>
       <form className="filling-layout-container">
-        <ListWithHeading headerText="Zdjęcie">
+        <ListWithHeading headerText="Photo">
           <FileUploadPill
             id="main-image"
             onChange={onFileChange}
             text={file.name}
           />
-          <span className="secondary-font">Lub</span>
+          <span className="secondary-font">Or</span>
           <PillButton onClick={onExamplesModalOpen}>
-            Wybierz z przykładów
+            Select from examples
           </PillButton>
         </ListWithHeading>
         {children}
@@ -44,7 +44,7 @@ function MainForm({ children, onSubmit }) {
             selected
             onClick={() => onSubmit(file)}
           >
-            Jazda
+            Submit
           </PillButton>
         </div>
       </form>

@@ -83,7 +83,7 @@ Each project contains own instructions:
 
 Additional prerequisites for Azure part (MLFlow on AzureML, Azure Web App, Azure Function App):
 
-- An Azure account with an active subscription. [Create an account here](https://azure.microsoft.com/en-gb/free/machine-learning/).
+- An Azure account with an active subscription. [Create an account here](https://azure.microsoft.com/en-gb/free/machine-learning/)
 - Active workspace in Azure Machine Leatning Studio. [How to create workspace](<https://learn.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources?view=azureml-api-2>)
 
 ### Installation steps
@@ -318,7 +318,7 @@ The experiment should be logged in AzureML workspace.
 
 In our baseline model, we used a convolutional neural network with the VGG19 archiecture with hyperparameters from the config.yaml file. The model takes an image in matrix format and generates predictions for 8 classification labels. We chose this model because it has a relatively simple architecture and is a good starting point for more complex models.
 
-Its more than welcome to improve the performance of our model by community. One way to do this is by training your own models with different configurations, custom augmentations or differnet dataset. This can help to improve the accuracy and robustness of the model on different datasets and in different scenarios. The baseline model is available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10031761.svg)](https://doi.org/10.5281/zenodo.10031761)
+Its more than welcome to improve the performance of our model by community. One way to do this is by training your own models with different configurations, custom augmentations or differnet dataset. This can help to improve the accuracy and robustness of the model on different datasets and in different scenarios. The baseline model is available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10031761.svg)](https://doi.org/10.5281/zenodo.10031761).
 
 #### Baseline results
 
@@ -353,7 +353,7 @@ As part of the research and development project we prepared a Poster describing 
 
 ### Awards and Recognition
 
-Our project's poster was accepted at the Polish Conference on Artificial Intelligence (PP-RAI). The conference provides a platform for researchers and practitioners to exchange ideas and advancements in the field of AI. We are excited that our team had a chance to present the research results to broader public. [Read more](<https://pp-rai.pl/programme/cv-poster-session-papers/>)
+Our project's poster was accepted at the Polish Conference on Artificial Intelligence (PP-RAI). The conference provides a platform for researchers and practitioners to exchange ideas and advancements in the field of AI. We are excited that our team had a chance to present the research results to broader public. [Read more](<https://web.archive.org/web/20230609121754/https://pp-rai.pl/programme/cv-poster-session-papers//>)
 
 Conference Details:
 
@@ -365,7 +365,7 @@ Conference Details:
 ### Funding
 
 - The project was the winner of the 5th edition of the Study@research contest and received funding of PLN 10 000. The grant made it possible to finance, among other things, the payment of consultations with an interior design expert, the purchase of study meterials, participation in specialised training courses and remuneration for the research effort. [Read more](https://amu.edu.pl/studenci/programy-studenckie/study@research/aktualnosci/konkurs-049-study@research-rozstrzygniety)
-- Project co-funded by the European Union under the European Regional Development Fund Digital Poland Operational Programme 2014-2020, Priority axis No. 3 "Digital competences of society" Measure No. 3.2 "Innovative solutions for digital activation" Project title: "Academy of Innovative Applications of Digital Technologies (AI Tech)". Agreement no. POPC.03.02.00-00-0001/20-00
+- Project co-funded by the European Union under the European Regional Development Fund Digital Poland Operational Programme 2014-2020, Priority axis No. 3 "Digital competences of society" Measure No. 3.2 "Innovative solutions for digital activation" Project title: "Academy of Innovative Applications of Digital Technologies (AI Tech)". Agreement no. POPC.03.02.00-00-0001/20-00.
 
 ### Contact Information
 

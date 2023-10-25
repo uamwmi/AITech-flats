@@ -2,7 +2,7 @@
 
 ## Uruchomienie
 
-Do integracji z backendem potrzebujemy jego adres i token. Najlepiej przechowywać je w pliku `.env`:
+To integrate with the backend, we need its address and token. It is best to store these in a `.env` file:
 
 ```shell
 VITE_API_URL="https://aitechflats-func-inference-dev.azurewebsites.net"
@@ -22,7 +22,7 @@ $ npm run dev
 $ docker-compose up
 ```
 
-Strona powinna działać pod `http://localhost`.
+The site should work under `http://localhost`.
 [README.md](README.md)
 
 ## Budowanie i deployment
@@ -33,13 +33,11 @@ Strona powinna działać pod `http://localhost`.
 $ docker build -f .\Dockerfile.prod --build-arg API_URL="{{adres_backendu}}" --build-arg API_TOKEN="{{token}}" -t "aitechflats.azurecr.io/frontend" .
 ```
 
-Podmieniamy:
+Replace:
 
-- Adres hosta backendu (`{{adres_backendu}}`), np. *https://aitechflats-func-inference-dev.azurewebsites.net*
-- Token dostępowy do backendu (`{{token}}`) .
+- The host address of the backend (`{{address_backend}}), e.g.. *<https://aitechflats-func-inference-dev.azurewebsites.net>*
+- The access token for the backend (`{{token}}`) .
 
 ### Deployment
 
-Po zmergowania do maina aplikacja automatycznie deployuje się do Azure Static Web Apps.
-
-Strona jest podstępna pod https://yellow-pond-04f25f30f.2.azurestaticapps.net
+When merged into maina, the app automatically deploys to Azure Static Web Apps.

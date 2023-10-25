@@ -6,7 +6,7 @@ function FileUploadPill({ text, id, onChange }) {
     <Pill type="button" className="file-upload-wrapper">
       <label className="fileupload-input-container" htmlFor={id}>
         <span className="fileupload-input-label secondary-font">
-          {text || 'Wybierz plik'}
+          {text || 'Select image'}
         </span>
         <img className="fileupload-input-icon" alt="upload" src="upload.svg" />
         <input
