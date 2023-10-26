@@ -91,7 +91,7 @@ Additional prerequisites for Azure part (MLFlow on AzureML, Azure Web App, Azure
 1. Clone the repository
 
     ```sh
-    git clone <https://github.com/emkarcinos/AITech-flats.git>
+    git clone <https://github.com/uamwmi/AITech-flats.git>
     ```
 
 2. Create and activate virtual environment
