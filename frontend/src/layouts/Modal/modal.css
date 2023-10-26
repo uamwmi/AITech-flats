@@ -1,0 +1,35 @@
+.modal-container-wrapper {
+  padding: 0;
+  border: none;
+  border-radius: 20px;
+  max-width: 80vw;
+}
+
+.modal-topbar-container {
+  background: var(--main-accent-color);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  top: 1px;
+}
+
+.modal-close-button__icon {
+  aspect-ratio: auto;
+  height: 1em;
+}
+
+.modal-content {
+  max-height: 80vh;
+  overflow-x: hidden;
+}
+
+.modal-title {
+  text-align: center;
+  color: var(--dark-color);
+}

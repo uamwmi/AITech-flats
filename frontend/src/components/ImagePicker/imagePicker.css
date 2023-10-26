@@ -1,0 +1,36 @@
+.image-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+@media (min-width: 450px) {
+  .image-list-container {
+    max-width: 760px;
+  }
+}
+
+.image-list-item {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 44%;
+  max-width: 220px;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.image-picker-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 0 20px;
+  gap: 20px;
+}
+
+.image-list-item__selected {
+  box-shadow: inset 0 0 0 5em var(--main-accent-color);
+}

@@ -1,0 +1,22 @@
+.headed-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px 17px;
+  gap: 0;
+}
+
+.headed-list-paragraph {
+  margin: 0;
+  width: 100%;
+  color: var(--dark-color);
+}
+
+.headed-list-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}

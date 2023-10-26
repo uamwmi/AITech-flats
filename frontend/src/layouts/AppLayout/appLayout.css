@@ -1,0 +1,17 @@
+.app-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 28px;
+  height: calc(94% - 56px);
+  overflow-y: hidden;
+}
+
+@media (min-width: 450px) {
+  .app-main {
+    margin: auto;
+    width: 450px;
+  }
+}

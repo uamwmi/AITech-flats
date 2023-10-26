@@ -1,0 +1,29 @@
+.fileupload-input-container {
+  display: flex;
+  width: 100%;
+  color: var(--dark-color);
+  cursor: pointer;
+}
+
+.fileupload-input-icon {
+  background: var(--main-accent-color);
+  height: calc(2rem - 14px);
+  padding: 5px 7px 7px 5px;
+  border-radius: 0 50px 50px 0;
+}
+
+.fileupload-input-field[type='file'] {
+  display: none;
+}
+
+.file-upload-wrapper {
+  padding-right: 0;
+}
+
+.fileupload-input-label {
+  margin: auto;
+  padding: 0 10px 0 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

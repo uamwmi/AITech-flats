@@ -1,0 +1,26 @@
+.main-navbar-container {
+  background-color: var(--main-accent-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 0;
+  height: 2rem;
+  padding: 10px 26px;
+}
+
+.main-navbar-header {
+  font-size: 1.5em;
+
+  color: var(--light-color);
+  margin: 0;
+}
+
+.main-navbar-kebab {
+  aspect-ratio: auto;
+  height: 2em;
+}
+
+.main-navbar-header__link {
+  text-decoration: none;
+}

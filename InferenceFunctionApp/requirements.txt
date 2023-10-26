@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Adam Wojdyła <adam.wojdyla@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
+azure-functions
+requests
+pillow
+onnxruntime
+onnx
+numpy==1.22.0
+scipy
+jsonschema
+torchvision==0.14.0+cpu
+torch==1.13.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
